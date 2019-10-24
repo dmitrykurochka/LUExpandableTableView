@@ -10,6 +10,6 @@ let package = Package(
       .library(name: "LUExpandableTableView", targets: ["LUExpandableTableView"]),
   ],
   targets: [
-      .target(name: "LUExpandableTableView", path: "LUExpandableTableView"),
+      .target(name: "LUExpandableTableView"),
   ]
 )
